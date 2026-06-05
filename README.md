@@ -29,4 +29,4 @@ git clone https://github.com/YOUR-USERNAME/NoTocNum.git
 
 Add the following line to your LocalSettings.php file:
 
-`wfLoadExtension( 'NoTocNum' );` 
+wfLoadExtension( 'NoTocNum' );
