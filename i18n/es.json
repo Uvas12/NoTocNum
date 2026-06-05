@@ -1,0 +1,8 @@
+{
+  "@metadata": {
+    "authors": [
+      ""
+    ]
+  },
+  "notocnum-desc": "Permite ocultar la numeración automática del índice usando <code><nowiki>__NOTOCNUMBERS__</nowiki></code>."
+}

@@ -1,0 +1,8 @@
+{
+  "@metadata": {
+    "authors": [
+      ""
+    ]
+  },
+  "notocnum-desc": "Allows hiding automatic table of contents numbering using <code><nowiki>__NOTOCNUMBERS__</nowiki></code>."
+}

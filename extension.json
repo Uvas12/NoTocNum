@@ -1,0 +1,37 @@
+{
+  "name": "NoTocNum",
+  "version": "2.0",
+  "author": [
+    "La pluma azul"
+  ],
+  "url": "https://www.mediawiki.org/wiki/Extension:NoTocNum",
+  "descriptionmsg": "notocnum-desc",
+  "license-name": "MIT",
+  "type": "parserhook",
+  "requires": {
+    "MediaWiki": ">= 1.35.0"
+  },
+  "AutoloadClasses": {
+    "NoTocNumHooks": "includes/Hooks.php"
+  },
+  "Hooks": {
+    "GetDoubleUnderscoreIDs": "NoTocNumHooks::onGetDoubleUnderscoreIDs",
+    "InternalParseBeforeLinks": "NoTocNumHooks::onInternalParseBeforeLinks",
+    "BeforePageDisplay": "NoTocNumHooks::onBeforePageDisplay"
+  },
+  "ExtensionMessagesFiles": {
+    "NoTocNumMagic": "NoTocNum.i18n.magic.php"
+  },
+  "config": {
+    "NoTocNumEnableSpecialPages": {
+      "value": false,
+      "description": "If true, TOC numbering will also be hidden on special pages."
+    }
+  },
+  "MessagesDirs": {
+    "NoTocNum": [
+      "i18n"
+    ]
+  },
+  "manifest_version": 2
+}
