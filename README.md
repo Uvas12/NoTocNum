@@ -7,7 +7,7 @@ It can also hide table of contents numbering on special pages when enabled throu
 
 ## Features
 
-- Adds the `__NOTOCNUMBERS__` behavior switch.
+- Adds the `__NOTOCNUMBERS__` magic word.
 - Hides table of contents numbering only on pages that use `__NOTOCNUMBERS__`.
 - Removes `__NOTOCNUMBERS__` from the visible page output.
 - Supports optional application on special pages.
@@ -30,3 +30,7 @@ git clone https://github.com/YOUR-USERNAME/NoTocNum.git
 Add the following line to your LocalSettings.php file:
 
 wfLoadExtension( 'NoTocNum' );
+
+## Configuration
+You can configure the extension for activate in special pages, you must add to your LocalSettings.php:
+`$wgNoTocNumEnableSpecialPages = true;`
