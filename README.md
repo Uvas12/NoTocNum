@@ -26,10 +26,10 @@ Download or clone this repository into the `extensions/` directory of your Media
 ```bash
 cd extensions
 git clone https://github.com/Uvas12/NoTocNum.git
-bash``` 
+
 Add the following line to your LocalSettings.php file:
 
 wfLoadExtension( 'NoTocNum' );
 
 You can configure the extension for activate in special pages, you must add to your LocalSettings.php:
-`$wgNoTocNumEnableSpecialPages = true;
+$wgNoTocNumEnableSpecialPages = true;
